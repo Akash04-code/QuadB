@@ -1,0 +1,84 @@
+.body{
+    /* height:99vh; */
+    width: 100%;
+    background-color: cadetblue;
+    opacity: 0.8;
+}
+
+.ui-main{
+    /* height:80vh; */
+    /* width:100%; */
+    background-color: rgb(172, 172, 199);
+    margin:20px 100px;
+    border-radius: 20px;
+    box-shadow: 3px 2px 2px 2px black;
+    }
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    padding-top:20px;
+    border-bottom: 2px solid white;
+}
+.show-detail{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.bainner{
+    /* height:400px; */
+     width:40%;
+     margin:15px 20px;
+     padding:10px 10px;
+    /* border:2px solid black; */
+    border-radius: 20px;
+    
+}
+.bainner div img{
+    /* height:350px; */
+    width:100%;
+    border-radius:10px;
+    cursor: pointer;
+
+}
+.bainner div img:hover{
+    transform: rotateY(20deg);
+}
+
+.detail{
+    /* height:400px; */
+    width:30%;
+    margin: 20px 20px;
+    padding:10px 10px;
+    /* border:2px solid black; */
+    border-radius: 20px;
+}
+.detail div {
+    font-size:20px;
+    font-weight: bold;
+    font-style:oblique;
+    text-align: center;
+    color:rgb(80, 1, 153);
+    line-height:50px;
+}
+.description{
+    text-align: center;
+    
+}
+.description a{
+    text-decoration: none;
+    color:black;
+    font-size: bold;
+}
+@media only screen and (min-width:960px){
+    .ui-main{
+        max-width: 760px;
+        margin :auto;
+    }
+}
+
+@media only screen and (min-width:560px)and (max-width:960px){
+    .ui-main{
+        margin :20px 100px;
+    }
+}

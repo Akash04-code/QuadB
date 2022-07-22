@@ -1,0 +1,42 @@
+.home-page{
+    height:100vh;
+    width:100%;
+    background-color: rgb(215, 214, 213);
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width:700px;
+    height:200px;
+    margin:auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+    border-spacing:2px;
+    box-shadow: 3px 2px 2px 2px black;
+  }
+  tr:nth-child(even) {
+    background-color:gray;
+  }
+  th {
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid green;
+    border-radius: 5px;
+    background-color: rgb(108, 108, 187);
+  }
+    th:hover{
+      background-color: gray;
+      color:black;
+      cursor: pointer;
+    }
+  td {
+     font-size: bold;
+     font-family:sans-serif;
+     text-align: center;
+     padding:10px;
+  }
+  td:hover{
+    color:black;
+  }
